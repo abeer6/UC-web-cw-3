@@ -1,22 +1,26 @@
-h{
-    font-family: monospace;
-   
-}
+
 body{
+    margin: 0;
+}
+.center{
     display: flex;
     justify-content: center;
     align-items: center;
-
+height: 100vh;
     margin: 0;
 }
 .container{
-    width: 500px;
+    width: 520px;
+    height: 520px;
     
     background-color: brown;
     display: flex;
+    margin: auto;
 
     flex-wrap: wrap;
     justify-content: center; 
+    align-items: center;
+    
     
     
     
@@ -26,12 +30,16 @@ body{
     width: 150px;
     height: 150px;
     background-color:teal;
-    margin: 4px;
+    margin:1px;
     border-radius: 10px;
     transition:all 0.5s;
     border: 10px solid;color: teal;
     
+    
+    
+    
 }
 .box:hover{
     border:turquoise ;
+    
 }
